@@ -192,13 +192,13 @@ h4 {
   font-size: 18px;
 }
 
-.bouton-filtres ul {
+.filter-button ul {
   display: flex;
   flex-wrap: wrap;
   gap: 15px;
 }
 
-.bouton-filtres li {
+.filter-button li {
   height: 50px;
   border: 2px solid var(--border-bg-color);
   border-radius: 25px;
@@ -209,11 +209,11 @@ h4 {
   align-items: center;
 }
 
-.bouton-filtres li:hover {
+.filter-button li:hover {
   background-color: var(--filter-bg-color);
 }
 
-.bouton-filtres li i {
+.filter-button li i {
   width: 22px;
   height: 22px;
   display: flex;
@@ -246,7 +246,7 @@ h4 {
   justify-content: center;
   align-items: center;
 }
-/****** Hebergements And Populaires ***********/
+/****** Hostings And Populars ***********/
 .hosting-and-popular {
   margin-top: 35px;
   display: flex;
@@ -303,35 +303,35 @@ h4 {
   filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
 }
 
-/****** Populaires ***********/
-.populaires {
+/****** popular ***********/
+.popular {
   width: 32%;
 }
 
-.populaires-title {
+.popular-title {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
 }
-.populaires-title i {
+.popular-title i {
   width: 18px;
   height: 15.75px;
   margin-top: 5px;
 }
 
-.populaires-cards .card {
+.popular-cards .card {
   display: flex;
   margin-bottom: 30px;
 }
 
-.populaires-cards img {
+.popular-cards img {
   width: 33%;
   height: 136px;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
 }
 
-.populaires-cards .card-content {
+.popular-cards .card-content {
   width: 67%;
   padding-left: 15px;
   display: flex;
@@ -339,12 +339,12 @@ h4 {
   justify-content: space-between;
 }
 
-.populaires-cards .card-title {
+.popular-cards .card-title {
   margin-top: 10px;
   margin-bottom: 4px;
 }
 
-.populaires-cards .card-rating {
+.popular-cards .card-rating {
   margin-bottom: 5px;
 }
 
@@ -415,17 +415,17 @@ footer li {
     width: 100%;
   }
 
-  .populaires {
+  .popular {
     width: 100%;
   }
 
-  .populaires-cards {
+  .popular-cards {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
   }
 
-  .populaires-cards a {
+  .popular-cards a {
     width: 30%;
   }
 
@@ -514,7 +514,7 @@ footer li {
   }
   /** filter bar**/
 
-  .bouton-filtres li {
+  .filter-button li {
     min-width: 175px;
     flex-basis: 48%;
     justify-content: start;
@@ -535,7 +535,7 @@ footer li {
   }
 
   .hosting-cards .card,
-  .populaires-cards .card {
+  .popular-cards .card {
     width: 100%;
   }
 
@@ -557,23 +557,23 @@ footer li {
   }
 
   /** popular**/
-  .populaires {
+  .popular {
     order: 1;
     margin-top: 50px;
     margin-bottom: 15px;
     padding: 30px 20px !important;
   }
 
-  .populaires-cards {
+  .popular-cards {
     flex-direction: column;
   }
 
-  .populaires-cards a {
+  .popular-cards a {
     width: 100%;
     flex-grow: 1;
   }
 
-  .populaires-cards img {
+  .popular-cards img {
     border-width: 5px 0px 5px 5px;
     border-style: solid;
     border-color: var(--body-bg-color);

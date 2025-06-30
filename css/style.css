@@ -562,8 +562,13 @@ footer li {
     flex-direction: column;
     margin-bottom: 15px;
   }
-  .hosting-cards img,
-  .activities-cards img {
+
+  /*Ajout pour supprimer le padding des cards des sections "hostings" et "popular" afin de n'avoir qu'une marge de 5px comme sur la maquette*/
+  .card {
+    padding: 0;
+  }
+  /* suppression du selecteur ".activities-cards img" afin de supprimer la marge sur les cards de la section activities*/
+  .hosting-cards img {
     border: 5px solid var(--body-bg-color);
   }
 
